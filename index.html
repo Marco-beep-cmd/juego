@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICAS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo remove.png" type="image/png">
+</head>
+
+<body>
+    <video id="bg-video" autoplay loop muted>
+        <source src="portada.mp4" type="video/mp4">
+    </video>
+    <div id="app">
+        <h1>Practicar Escritura en Teclado</h1>
+        <p>Escribe las palabras o letras que aparecen en la pantalla:</p>
+        <div id="word-container"></div>
+        <input type="text" id="input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+        <p id="score"></p>
+        <button class="button" id="next-btn" style="display: none;">Siguiente Nivel</button>
+        <h2>Puntajes</h2>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
